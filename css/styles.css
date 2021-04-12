@@ -55,3 +55,7 @@ button {
 button:active {
   transform: scale(0.95);
 }
+
+ul {
+  list-style: none;
+}
