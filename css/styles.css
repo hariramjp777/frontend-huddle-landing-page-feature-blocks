@@ -59,3 +59,10 @@ button:active {
 ul {
   list-style: none;
 }
+
+/* BODY */
+body {
+  background-color: var(--clr-white);
+  width: calc(100% - (clamp(1rem, 6vw, 8.2rem) * 2));
+  margin: auto;
+}
