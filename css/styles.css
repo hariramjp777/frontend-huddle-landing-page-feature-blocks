@@ -34,8 +34,9 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 0.7vw;
   position: relative;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -148,7 +149,7 @@ header .button {
 .hero-title p {
   color: var(--clr-dark-cyan);
   margin: 3rem 0;
-  line-height: 1.5;
+  line-height: 1.9vw;
 }
 
 .hero-title .button {
@@ -196,7 +197,7 @@ main {
 .card .card-body p {
   color: var(--clr-grayish-blue);
   margin-top: 3rem;
-  line-height: 1.5;
+  line-height: 1.9vw;
 }
 
 .card .card-illust img {
@@ -241,8 +242,8 @@ address ul {
 
 address ul li {
   position: relative;
-  left: 2.8rem;
-  line-height: 1.5;
+  left: 2.9rem;
+  line-height: 1.9vw;
 }
 
 address ul .phone {
@@ -252,7 +253,7 @@ address ul .phone {
 address ul li::before {
   content: "";
   position: absolute;
-  left: -2.8rem;
+  left: -2.9rem;
   top: 0.5rem;
   width: 1.5rem;
   height: 2rem;
@@ -291,6 +292,10 @@ nav ul li a {
   color: var(--clr-pale-cyan);
 }
 
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
 .social {
   width: calc(100% - 80rem);
 }
@@ -307,6 +312,12 @@ nav ul li a {
   border-radius: 50%;
   border: 0.1rem solid var(--clr-white);
   display: flex;
+  transition: background-color 0.4s ease, border-color 0.4s ease;
+}
+
+.social li:hover {
+  background-color: var(--clr-pink);
+  border-color: var(--clr-pink);
 }
 
 .social li a {
