@@ -400,6 +400,9 @@ nav ul > * + * {
   :root {
     --fs-base: 1.08vw;
   }
+  body::before {
+    background-image: url("../assets/images/bg-hero-desktop.svg");
+  }
   header img {
     width: 14rem;
   }
