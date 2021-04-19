@@ -349,13 +349,13 @@ nav ul > * + * {
   color: var(--clr-white);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 23.5em) {
   :root {
     --fs-base: 2.649vw;
   }
 }
 
-@media (min-width: 452px) {
+@media (min-width: 28.25em) {
   .hero-illust {
     text-align: center;
   }
@@ -364,7 +364,7 @@ nav ul > * + * {
   }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 40em) {
   .card {
     text-align: left;
     display: flex;
@@ -396,7 +396,7 @@ nav ul > * + * {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48em) {
   :root {
     --fs-base: 1.08vw;
   }
@@ -480,7 +480,7 @@ nav ul > * + * {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
   :root {
     --fs-base: 0.9vw;
   }
